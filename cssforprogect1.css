@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+.Potolok {
+  padding: 1px;
+  background-color: yellow;
+}
+
+.Fon {
+  height: 100%;
+  background-color: yellow;
+}
+
+.Menu {
+  /*display: inline-block;*/
+  background-color: WHITE;
+  height: 150px;
+  margin: 50px 0 0 0;
+}
+
+.Menu_Ru {
+  height: 150px;
+  width: calc(50% - 150px);
+  background-color: green;
+  margin: 50px 0 0 0;
+  box-sizing: border-box;
+  padding: 20px 20px 20px 20px;
+  display: inline-block
+}
+
+.Menu_Ru_Letters {
+  background-color: red;
+  height: auto;
+}
+
+.Menu_En {
+  height: 150px;
+  width: calc(50% - 150px);
+  background-color: green;
+  margin: 0 0 0 24%;
+  padding: 20px 20px 20px 20px;
+  display: inline-block;
+  box-sizing: border-box;
+
+}
+
+.Red_Trap {
+  height: 10%;
+  background-color: blue;
+  margin-top: 29%;
+}
+
+.load_line {
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+}
+
+.Load_Line_Black_Up {
+  height: 2.5vh;
+  background-color: black;
+
+}
+
+.Load_Line_Red {
+  height: 4.5vh;
+  background-color: red;
+
+}
+
+.Load_Line_Black_Center {
+  height: 2vh;
+  background-color: black;
+}
+
+.Load_Line_Red_Bottom {
+  height: 0.5vh;
+  background-color: red;
+}
+
+.Load_Line_Black_Bottom {
+  height: 0.5vh;
+  background-color: black;
+}
+.text {
+    font-size: 10px;
+}
+#wrapper {
+  width: 100%;
+  height: 100vh;
+  background-color: yellow;
+  display: block;
+}
+
+#div1 {
+  background-color: WHITE;
+  width: 100%;
+  height: 100vh;
+  /*display: inline-block;*/
+  margin: 0 20 20 20;
+
+}
+.div2 {
+  width: 100%;
+  height: 300px;
+  background-color: red;
+  /*display: inline-block;*/
+  margin: 0 20 20 20;
+}
+
+#div3 {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  margin: 0 20 20 20;
+
+}
+
+#div4 {
+  width: 100%;
+  height: 100px;
+  background-color: #FF0;
+
+  margin: 0 20 20 20;
+}
+/*.loader {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  border: 4px solid #Fff;
+  top: 25%;
+
+  animation: loader 4s infinite ease;
+}
+
+.loader-inner {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  background-color: #fff;
+  animation: loader-inner 2s infinite ease-in;
+}
+
+@keyframes loader {
+  0% {
+    transform: translateX(0px);
+  }
+
+  25% {
+    transform: translateX(250px);
+  }
+
+  50% {
+    transform: translateX(500pX);
+  }
+
+  75% {
+    transform: translateX(600px);
+  }
+
+  100% {
+    transform: translateX(650px);
+  }
+}
+
+@keyframes loader-inner {
+  0% {
+    height: 0%;
+  }
+
+  25% {
+    height: 0%;
+  }
+
+  50% {
+    height: 100%;
+  }
+
+  75% {
+    height: 100%;
+  }
+
+  100% {
+    height: 0%;
+  }
+}
