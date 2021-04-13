@@ -11,7 +11,7 @@ body {
 
 .Fon {
   height: 100%;
-  background-color: yellow;
+  background-color: blue;
 }
 
 .Menu {
@@ -24,7 +24,7 @@ body {
 .Menu_Ru {
   height: 150px;
   width: calc(50% - 150px);
-  background-color: green;
+  background-color: blue;
   margin: 50px 0 0 0;
   box-sizing: border-box;
   padding: 20px 20px 20px 20px;
@@ -35,6 +35,7 @@ body {
   background-color: red;
   height: auto;
 }
+
 
 .Menu_En {
   height: 150px;
